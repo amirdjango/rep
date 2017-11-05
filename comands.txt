@@ -1,0 +1,51 @@
+VPN:
+sudo openconnect us.cisadd.com
+ir264226
+parham2016
+
+run redis:
+/usr/src$ redis-cli
+
+
+gitlab:
+username:amir_django
+git clone https://gitlab.com/titrfarsi/web.git
+
+
+install git:
+apt install git
+
+
+Virtualenv options:
+sudo pip install virtualenv
+cd Documents/web#######go to my project path
+virtualenv .myenv
+source .myenv/bin/activate
+
+دستور خیلی کاربردی:
+pip freeze
+		
+Git run:
+…or create a new repository on the command line
+
+echo "# testfile_repos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/amirdjango/testfile_repos.git
+git push -u origin master
+
+Note that if error "fatal: remote origin already exists." raised:
+git remote rm origin
+and 
+git remote add origin git@github.com:username/myapp.git
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/amirdjango/testfile_repos.git
+git push -u origin master
+
+
+
+
+# myrepos
